@@ -27,6 +27,8 @@ $('#save').click(function() {
 
 					toSave.forEach(function(saveTab, index) {
 						if (saveTab.url === url) {
+							// Duplicate tab
+							// TODO: notification
 							addToSave = false;
 						}
 					})
@@ -59,12 +61,12 @@ $('#save').click(function() {
 
 // Options
 $('#options').click(function() {
-
+	// TODO
 });
 
 // Open selected folder
 $('#folder').click(function() {
-
+	// TODO
 });
 
 function testImage(url, callback, timeout) {
